@@ -8,7 +8,7 @@
     <main class="max-w-7xl mx-auto mt-4 p-4 flex flex-col gap-8 justify-center items-center md:flex-row-reverse md:items-start ">
       <aside class=" ">
         <h2 class="text-2xl font-bold">About Me</h2>
-        <img src="/andrew.jpeg" alt="Andrew Lucas" class="rounded-full w-32 h-32 mx-auto" />
+        <img src="andrew.jpeg" alt="Andrew Lucas" class="rounded-full w-32 h-32 mx-auto" />
         <pre class="whitespace-pre-wrap max-w-prose">bio: {{ about }},</pre>
         <div class="font-mono whitespace-pre-wrap max-w-prose mt-2">tech: ["HTML", "CSS", "JavaScript", "Vue.js", "React", "Node.js", "Python"],
         </div>
@@ -101,19 +101,19 @@ const projects = [
   {
     title: 'Quantum Economic Advantage Calculator (WiP)',
     description: 'A calculator that helps you understand the economic advantage of quantum computing over classical computing.',
-    image: '/quantum-economic-advantage-calculator.png',
+    image: 'quantum-economic-advantage-calculator.png',
     url: 'https://futuretech.mit.edu/quantum-economic-advantage-calculator'
   },
   {
     title: 'Algorithm Wiki (WiP)',
     description: 'Algorithm Wiki is a database of algorithms and their historical origins. The platform covers a variety of analysis, including the growth of algorithms and their impacts across industries.',
-    image: '/algorithmwiki.png',
+    image: 'algorithmwiki.png',
     url: 'https://algorithm-wiki.netlify.app/'
   },
   {
     title: 'Computer Progress',
     description: 'A website that helps users visualize and understand the economic and technical foundations of computing. The site features interesting visualizations of progress in several computing tasks.',
-    image: '/computerprogress.png',
+    image: 'computerprogress.png',
     url: 'https://computerprogress.com/'
   }
 ]
