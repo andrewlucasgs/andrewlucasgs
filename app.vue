@@ -8,7 +8,7 @@
     <main class="max-w-7xl mx-auto mt-4 p-4 flex flex-col gap-8 justify-center items-center md:flex-row-reverse md:items-start ">
       <aside class=" ">
         <h2 class="text-2xl font-bold">About Me</h2>
-        <img src="andrew.jpeg" alt="Andrew Lucas" class="rounded-full w-32 h-32 mx-auto" />
+        <img :src="profile" alt="Andrew Lucas" class="rounded-full w-32 h-32 mx-auto" />
         <pre class="whitespace-pre-wrap max-w-prose">bio: {{ about }},</pre>
         <div class="font-mono whitespace-pre-wrap max-w-prose mt-2">tech: ["HTML", "CSS", "JavaScript", "Vue.js", "React", "Node.js", "Python"],
         </div>
@@ -83,6 +83,8 @@ target="_blank" rel="noopener noreferrer"
 </template>
 
 <script setup>
+const profile = 'andrew.jpeg'
+
 const about = [
   `I am a software engineer fascinated by building fascinating things. Currently working at MIT FutureTech, I have great experience in web development and data visualization.`,
   `When I am not in front of a computer, I like to travel, play chess, hike and go to the beach.`
